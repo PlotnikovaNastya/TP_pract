@@ -17,7 +17,7 @@ public class block2_z3 {
         int sum=0;
         for (int i=0;i<n;i++)
             sum+=a[i];
-        System.out.println(sum);
+        System.out.println("Сумма элементов: "+sum);
         boolean res;
         if (sum%n==0)
             res=true;
