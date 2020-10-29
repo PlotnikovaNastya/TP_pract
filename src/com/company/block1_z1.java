@@ -7,7 +7,7 @@ public class block1_z1 {
         int a = in.nextInt();
         System.out.println("Введите второй параметр:");
         int b = in.nextInt();
-        int rez_div  = division(a, b);
+        int rez_div = division(a, b);
         System.out.println("Остаток от деления равен " + rez_div);
     }
 
