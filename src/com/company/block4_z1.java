@@ -1,6 +1,6 @@
 package com.company;
 import java.util.Scanner;
-public class block1_z1 {
+public class block4_z1 {
     public static void task1() {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите первый параметр:");

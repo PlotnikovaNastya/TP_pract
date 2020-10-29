@@ -2,8 +2,8 @@ package com.company;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Первая задача:");
-        block1_z1 b1_z1 = new block1_z1();
-        b1_z1.task1();
+        block4_z1 b4_z1 = new block4_z1();
+        b4_z1.task1();
         /*System.out.println("Вторая задача:");
         /*block1_z2 b1_z2=new block1_z2();
         b1_z2.task2();
