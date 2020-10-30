@@ -17,7 +17,7 @@ public class block2_z2 {
     {
         int raz;
         int min=Integer.MAX_VALUE;
-        int max=0;
+        int max=Integer.MIN_VALUE;
         for (int i=0; i<a.length;i++) {
             if (a[i] > max)
                 max=a[i];
