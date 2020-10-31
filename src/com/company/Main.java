@@ -4,8 +4,8 @@ public class Main {
         System.out.println("Первая задача:");
         block3_z1 b3_z1 = new block3_z1();
         b3_z1.task1();
-        /*System.out.println("Вторая задача:");
-        /*block3_z2 b3_z2=new block3_z2();
+        System.out.println("Вторая задача:");
+        block3_z2 b3_z2=new block3_z2();
         b3_z2.task2();
         System.out.println("Третья задача:");
         block3_z3 b3_z3=new block3_z3();
@@ -30,6 +30,6 @@ public class Main {
         b3_z9.task9();
         System.out.println("Десятая задача:");
         block3_z10 b3_z10=new block3_z10();
-        b3_z10.task10();*/
+        b3_z10.task10();
     }
 }
