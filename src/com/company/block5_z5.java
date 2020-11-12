@@ -5,7 +5,7 @@ public class block5_z5 {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите все слова в строку:");
         String str = in.nextLine();
-        System.out.println("Слово может быть завершено? " + vowel(str));
+        System.out.println("Гласные совпадают? " + vowel(str));
     }
 
     public static String vowel(String s)
