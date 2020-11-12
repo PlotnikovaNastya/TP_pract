@@ -1,5 +1,4 @@
 package com.company;
-import java.util.ArrayList;
 import java.util.Scanner;
 public class block5_z5 {
     public static void task5() {
