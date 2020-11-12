@@ -2,7 +2,7 @@ package com.company;
 import java.security.NoSuchAlgorithmException;
 public class Main {
     public static void main(String[] args) throws NoSuchAlgorithmException {
-         System.out.println("Первая задача:");
+        System.out.println("Первая задача:");
         block5_z1 b5_z1 = new block5_z1();
         b5_z1.task1();
         System.out.println("Вторая задача:");
