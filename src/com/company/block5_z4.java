@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class block5_z4 {
     public static void task4() {
-        System.out.println("Введите числа (после ввода всех чисел введите -1):");
+        System.out.println("Введите числа (после ввода всех чисел нажмите повторно ent):");
         ArrayList<Integer> arr = getNumbers();
         System.out.println("Результат: " + sum(arr));
     }
