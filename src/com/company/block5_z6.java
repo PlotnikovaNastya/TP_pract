@@ -5,7 +5,6 @@ public class block5_z6 {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите число:");
         String n = in.nextLine();
-        in.close();
         System.out.println("Это действительно номер кредитной карты? " + card(n));
     }
 
