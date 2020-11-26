@@ -8,7 +8,7 @@ public class block6_z3 {
     public static boolean rgbcolor(String str)
     {
         String[] new_s = str.substring(str.indexOf('(')+1, str.indexOf(')')).split(",");
-        if ((str.contains("rgba") && new_s.length != 4) || (str.contains(",,")))
+        if ((str.contains("rgba") && new_s.length != 4) || (str.contains(",,")) || (new_s.length!=3))
             return  false;
         for (int i = 0; i < new_s.length ; i++)
         {
