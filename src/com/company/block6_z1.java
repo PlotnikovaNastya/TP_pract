@@ -1,18 +1,19 @@
 package com.company;
-import java.util.Scanner;
 public class block6_z1 {
     public static void task1() {
-        Scanner in = new Scanner(System.in);
-        System.out.println("Введите первый параметр:");
-        int a = in.nextInt();
-        System.out.println("Введите второй параметр:");
-        int b = in.nextInt();
-        int rez_div = division(a, b);
-        System.out.println("Остаток от деления равен " + rez_div);
+        System.out.println(podm(3));
     }
 
-    public static int division(int a, int b)
+    private static int podm(int n)
     {
-        return a % b;
+        //белл-треугольник
+        int[][] bell = new int[n+1][n+1];
+        bell[0][0] = 1;
+        for (int i=1; i<=n; i++) {
+            bell[i][0] = bell[i - 1][i - 1];
+            for (int j = 1; j <= i; j++)
+                bell[i][j] = bell[i - 1][j - 1] + bell[i][j - 1];
+        }
+            return bell[n][0];
     }
 }
