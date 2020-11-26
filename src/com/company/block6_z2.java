@@ -16,7 +16,7 @@ public class block6_z2 {
             while(!String.valueOf(str.charAt(0)).matches("[aeyuioAEYUIO]"))
             {
                 String sd = str.substring(0, 1);
-                str = str.substring(1) + sd.toLowerCase();
+                str = str.substring(1) + sd;
             }
             return str + "ay";
         }
@@ -27,6 +27,7 @@ public class block6_z2 {
         boolean flag = false;
         String res = "";
         String sym = "";
+        String s=str.substring(str.length()-1);
         if  (String.valueOf(str.charAt(str.length()-1)).matches("[.!?]"))
         {
             sym = String.valueOf(str.charAt(str.length()-1));
@@ -36,15 +37,15 @@ public class block6_z2 {
         for (String word : each)
         {
             word = wor(word);
-            if (!word.toLowerCase().equals(word))
+            if (!word.equals(word))
             {
                 word = word.toLowerCase();
-                word = word.substring(0,1).toUpperCase() + word.substring(1);
+                word = word.substring(0,1) + word.substring(1);
             }
             if (flag)
                 word+=sym;
             res += word + " ";
         }
-        return res;
+        return res+s;
     }
 }
