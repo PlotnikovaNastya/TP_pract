@@ -2,7 +2,7 @@ package com.company;
 import java.util.Arrays;
 public class block6_z9 {
     public static void task9() {
-       System.out.println(formula("16 * 10 = 160 = 40 + 120"));
+       System.out.println(formula("16 * 10 = 160 = 14 + 120"));
     }
 
     public static boolean formula(String s)
