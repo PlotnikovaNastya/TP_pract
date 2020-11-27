@@ -58,7 +58,6 @@ public class block6_z8 {
                 res += "I";
                 n -= 1;
             }
-
         }
         else System.out.println("Несоответствующее число!");
         return res;
